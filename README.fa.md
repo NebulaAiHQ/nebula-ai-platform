@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/banner.svg" alt="Nebula AI Platform" width="100%"/>
+<img src="https://raw.githubusercontent.com/NebulaAiHQ/nebula-ai-platform/main/banner.svg" alt="Nebula AI Platform" width="100%"/>
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-8b5cf6?style=for-the-badge">
@@ -30,7 +30,7 @@
 ربات **۲۴ ساعته و بدون قطعی** کار می‌کند، با یک **معماری قدرتمند و امن‌سازی‌شده** که برای پایداری طراحی شده. چه از قبل یک **پنل VPN سنایی / هیدیفای / 3x-ui** دارید و چه از صفر شروع می‌کنید، Nebula از طریق **اتوماسیون** به آن وصل می‌شود و آن را به یک سرویس تلگرام کامل و درآمدزا تبدیل می‌کند — با اشتراک، پرداخت کریپتو، فروشگاه دیجیتال، سیستم دعوت، مأموریت‌ها، ابزار ضدتقلب و خیلی بیشتر.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/banner-hero.svg" alt="Nebula Ecosystem" width="100%"/>
+<img src="https://raw.githubusercontent.com/NebulaAiHQ/nebula-ai-platform/main/banner-hero.svg" alt="Nebula Ecosystem" width="100%"/>
 </div>
 
 ---
@@ -64,7 +64,7 @@ bash <(curl -Ls https://nebulapanel.cloud/install)
 ```
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/install-architecture.svg" alt="Install & Architecture" width="100%"/>
+<img src="https://raw.githubusercontent.com/NebulaAiHQ/nebula-ai-platform/main/install-architecture.svg" alt="Install & Architecture" width="100%"/>
 </div>
 
 ---
@@ -87,7 +87,7 @@ Nebula به‌صورت یک **ایمیج داکر دربسته‌ی واحد** �
 ## ✨ لیست کامل امکانات
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/platform-overview.svg" alt="All Modules" width="100%"/>
+<img src="https://raw.githubusercontent.com/NebulaAiHQ/nebula-ai-platform/main/platform-overview.svg" alt="All Modules" width="100%"/>
 </div>
 
 ### 🖥️ پنل مدیریت
