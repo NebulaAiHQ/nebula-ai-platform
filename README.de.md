@@ -6,15 +6,16 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-8b5cf6?style=for-the-badge">
   <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-22·24·26-6366f1?style=for-the-badge&logo=ubuntu&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-ready-38bdf8?style=for-the-badge&logo=docker&logoColor=white">
+  <img alt="No Code" src="https://img.shields.io/badge/No--Code-✓-10b981?style=for-the-badge">
   <img alt="Price" src="https://img.shields.io/badge/Pro-$5_lifetime-a855f7?style=for-the-badge">
 </p>
 <p><a href="https://t.me/NebulaAiHQ"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-@NebulaAiHQ-229ED9?style=for-the-badge&logo=telegram&logoColor=white"></a></p>
-<h3>Die komplette, selbst gehostete Telegram-Bot- & Verwaltungsplattform — in einer Zeile installiert.</h3>
+<h3>Das komplette No-Code-Telegram-Bot- & Verwaltungs-Ökosystem — ein professioneller, immer aktiver Bot mit mehrsprachigem Admin-Panel in einem Befehl. Keine Programmierung nötig.</h3>
 </div>
 
 <div align="center">
 
-**🌐 Language:** [English](README.md) · [فارسی](README.fa.md) · [العربية](README.ar.md) · [Türkçe](README.tr.md) · [中文](README.zh.md) · **Deutsch** · [Svenska](README.sv.md)
+[🇬🇧 English](README.md) · [🇮🇷 فارسی](README.fa.md) · [🇸🇦 العربية](README.ar.md) · [🇹🇷 Türkçe](README.tr.md) · [🇨🇳 中文](README.zh.md) · **🇩🇪 Deutsch** · [🇸🇪 Svenska](README.sv.md)
 
 </div>
 
@@ -22,19 +23,31 @@
 
 ## 🌌 Was ist die Nebula AI Platform?
 
-**Nebula AI Platform** ist ein All-in-one-, selbst gehostetes Ökosystem für einen professionellen Telegram-Dienst. Es vereint einen **Telegram-Bot**, ein modernes **mehrsprachiges Admin-Panel**, **VPN-/Serververwaltung**, **Krypto-Zahlungen**, ein **Empfehlungssystem**, **Rundrufe**, **Betrugsschutz** und ein professionelles **Lizenzsystem** — alles als ein einziges versiegeltes Docker-Image, installiert mit **einem Befehl**.
+**Nebula AI Platform** ist ein komplettes, selbst gehostetes Ökosystem, mit dem **jeder — sogar Menschen ohne Programmierkenntnisse** — einen professionellen, automatisierten Telegram-Bot betreiben und ihn über ein schönes Web-Panel in **7 Sprachen** verwalten kann.
 
-Es ist für **Nicht-Entwickler** gebaut: eine Zeile auf einem frischen Ubuntu-Server ausführen und alles wird automatisch eingerichtet. Danach verwaltest du alles über ein grafisches Menü oder das Web-Panel — kein Code, keine Konfigurationsdateien.
+Du schreibst keine einzige Zeile Code. Du führst **einen Befehl** auf einem frischen Server aus, verbindest deinen Telegram-Bot-Token, und alles ist bereit: Bot, Datenbank, Admin-Panel, Zahlungssystem, Shop und mehr — alles automatisch in einem versiegelten Docker-Container eingerichtet.
 
----
+Der Bot läuft **rund um die Uhr ohne Ausfälle**, gestützt auf eine **leistungsstarke, sicherheitsgehärtete Architektur**. Egal ob du bereits ein **Sanaei / Hiddify / 3x-ui VPN-Panel** betreibst oder neu anfängst — Nebula verbindet sich per **Automatisierung** und macht daraus einen voll ausgestatteten, monetarisierbaren Telegram-Dienst.
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/banner-hero.svg" alt="Nebula Ecosystem" width="100%"/>
 </div>
 
-## ⚡ Schnellinstallation
+---
 
-Führe auf einem frischen **Ubuntu 22.04 / 24.04 / 26.04** Server aus:
+## 👥 Für wen ist es?
+
+- 🧑‍💻 **Nicht-Entwickler**, die einen professionellen Bot ohne Programmierer wollen
+- 🌐 **VPN-/Proxy-Verkäufer** mit Sanaei-, Hiddify- oder 3x-ui-Panels
+- 🛍 **Digitale Verkäufer**, die einen In-Bot-Shop mit Krypto- & Kartenzahlung wollen
+- 🏢 **Agenturen & Reseller**, die Multi-Admin-Zugriff mit Bereichsrechten brauchen
+- 🚀 **Jeder**, der in Minuten einen dauerhaft aktiven, monetarisierbaren Telegram-Dienst will
+
+---
+
+## ⚡ Installation mit einem Befehl
+
+Führe auf einem frischen **Ubuntu 22 / 24 / 26** Server aus:
 
 ```bash
 bash <(curl -Ls https://nebulapanel.cloud/install)
@@ -47,109 +60,27 @@ bash <(curl -Ls https://nebulapanel.cloud/install)
    ██║╚██╗██║██╔══╝  ██╔══██╗██║   ██║██║     ██╔══██║
    ██║ ╚████║███████╗██████╔╝╚██████╔╝███████╗██║  ██║
    ╚═╝  ╚═══╝╚══════╝╚═════╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝
-         N E B U L A   A I   P L A T F O R M
+        N E B U L A   A I   P L A T F O R M
 ```
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/install-architecture.svg" alt="Install Flow & Architecture" width="100%"/>
+<img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/install-architecture.svg" alt="Install & Architecture" width="100%"/>
 </div>
 
-1. Sprache wählen (Englisch · Türkisch · Chinesisch · Deutsch · Schwedisch · Farsi).
-2. **Installieren** wählen — ein Fortschrittsbalken zeigt Docker, Konfiguration, Image-Download und Start.
-3. Am Ende erhältst du eine **Login-URL, Benutzername und Passwort**.
-4. Panel öffnen, Telegram-Bot-Token verbinden und Passwort ändern.
-
-Mit **Pfeiltasten** navigieren (oder Zifferntasten / `j`,`k` auf Mobil & Termux).
-
 ---
 
-## 💎 Preise & Lizenz
+## 🏗️ Architektur
 
-Nebula AI Platform ist **Freemium**:
+Nebula wird als **einzelnes versiegeltes Docker-Image** ausgeliefert, sodass dein Setup reproduzierbar bleibt und der Quellcode privat. Der Installer richtet alles automatisch ein:
 
-- 🆓 **Für immer kostenlos:** die Kernbereiche — **Dashboard, Nutzer, Gruppen** — funktionieren ohne Lizenz.
-- 💎 **Pro (lebenslang):** schaltet alles andere frei — Server & VPN-Panels, Abos, Follow-Guard, Einreichungen, Rundrufe, Agenten, Transaktionen, Überweisungen, Empfehlungen, Backup und Lizenzverwaltung.
+- 🐳 **Docker-Container** — führt die Node.js-App mit automatischen Neustarts aus
+- 🗄️ **SQLite-Datenbank** — auf einem persistenten Volume, das Updates übersteht
+- 🔒 **Nginx + Let's Encrypt SSL** — optionales HTTPS für Domain oder IP per Befehl
+- 🤖 **Telegram-Bot-Engine** (grammY) — immer aktiv, widerstandsfähig
+- ⌨️ **`nebula`-CLI** — alles vom Terminal verwalten
+- 🔑 **Ed25519-Lizenzierung** — asymmetrische, manipulationssichere Prüfung
 
-Eine **einmalige Zahlung von nur 5 $** an [@NebulaAi_HQ_bot](https://t.me/NebulaAi_HQ_bot) gibt dir eine **lebenslange** Pro-Lizenz — einmal zahlen, für immer nutzen. Die Lizenz ist an deinen Bot gebunden, wandert mit deinen Backups und läuft nie ab.
-
-**So kaufst du:** öffne [@NebulaAi_HQ_bot](https://t.me/NebulaAi_HQ_bot), sende deine Bot-ID (im Panel unter "Meine Lizenz"), zahle 5 $ in Krypto und erhalte deinen Schlüssel sofort. Ins Panel einfügen — fertig.
-
----
-
-## 🐳 Manuelle / Docker-Installation
-
-Lieber manuell, oder Docker schon vorhanden? Die Plattform wird als vorgefertigtes Image auf Docker Hub bereitgestellt: **`weblinuxi/nebula-platform`**.
-
-### Docker Compose
-
-```yaml
-services:
-  nebula:
-    image: weblinuxi/nebula-platform:latest
-    container_name: nebula
-    restart: unless-stopped
-    env_file: [ .env ]
-    ports: [ "3000:3000" ]
-    volumes: [ nebula-data:/app/data ]
-volumes:
-  nebula-data:
-    name: nebula-data
-```
-
-`.env`:
-
-```env
-ADMIN_USERNAME=admin
-ADMIN_PASSWORD=change_this_now
-SESSION_SECRET=replace_with_a_64_char_random_hex
-NODE_ENV=production
-PORT=3000
-DB_PATH=/app/data/bot.db
-SECURE_COOKIES=false
-BOT_TOKEN=
-```
-
-```bash
-docker compose up -d
-```
-
----
-
-## 🛠 Verwaltungsbefehle
-
-Nach der Installation ist der Befehl `nebula` auf dem Server verfügbar:
-
-| Command | What it does |
-|---|---|
-| `nebula` | Open the graphical management menu |
-| `nebula start` / `stop` / `restart` | Start / stop / restart |
-| `nebula status` | Service status, version, panel URL (+ HTTPS) |
-| `nebula logs` | Follow live logs |
-| `nebula update` | Update to newest version (data kept) |
-| `nebula password` | Show the panel password |
-| `nebula ssl <domain>` | Free HTTPS for a domain |
-| `nebula ssl auto` | Free HTTPS on the server IP (no domain) |
-| `nebula uninstall` | Remove everything |
-
----
-
-## 🔒 HTTPS / SSL aktivieren
-
-Nebula nutzt kostenlose **Let's Encrypt**-Zertifikate mit automatischem Nginx-Reverse-Proxy.
-
-**Mit eigener Domain** — richte einen `A`-Eintrag auf deinen Server (Proxy aus / nur DNS), dann:
-
-```bash
-nebula ssl panel.yourdomain.com
-```
-
-**Ohne Domain** — hol dir ein gültiges Zertifikat auf deiner IP via `sslip.io`:
-
-```bash
-nebula ssl auto
-```
-
-Beide installieren Nginx + Certbot, stellen das Zertifikat aus, aktivieren sichere Cookies und leiten `http → https` um.
+Gebaut für **ausfallfreie Zuverlässigkeit** und **Sicherheit auf Unternehmensniveau**.
 
 ---
 
@@ -159,78 +90,103 @@ Beide installieren Nginx + Certbot, stellen das Zertifikat aus, aktivieren siche
 <img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/platform-overview.svg" alt="All Modules" width="100%"/>
 </div>
 
+### 🖥️ Admin-Panel
 
-### Installer & Betrieb
+- ✅ Modern, responsive dashboard with live server stats (RAM / CPU / disk)
+- ✅ 7-language UI (Persian · English · Arabic · Turkish · Chinese · German · Swedish) with full RTL
+- ✅ Users — balances, history, profiles, avatars
+- ✅ Missions & rewards — configurable gigabyte rewards with real verification
+- ✅ Servers & VPN panels — Sanaei / Hiddify / 3x-ui connection & config management
+- ✅ Subscriptions — manage user plans & expiry
+- ✅ Follow-guard — reclaim rewards / cut subs when users leave a channel
+- ✅ Submissions — screenshot anti-fraud approvals
+- ✅ Broadcasts — message all users with live progress
+- ✅ Emergency notifier — reach users through any bot token
+- ✅ Anti-bot — blocks promo-bot button spam (even channel-posted ads)
+- ✅ Agents — limited sub-admins with per-section permissions
+- ✅ Referrals — invite tracking, leaderboards, bonus tiers
+- ✅ Transactions & transfers — full financial ledger
+- ✅ Backups — scheduled, with restore & Telegram-channel delivery
+- ✅ One-click auto-update with a live progress bar
 
-✅ Ein-Zeilen-Installation auf Ubuntu 22 / 24 / 26  
-✅ Grafische animierte Oberfläche — Sternenfeld, Farbverlauf-Logo, Fortschrittsbalken  
-✅ 6-sprachiger Installer mit gespeicherter Auswahl  
-✅ Pfeiltasten- und Zifferntasten-Navigation (mobil / Termux-freundlich)  
-✅ Docker-basiert — versiegeltes, kompiliertes Image; Quellcode bleibt privat  
-✅ Kostenloses SSL für eine Domain oder eine reine IP  
-✅ Updates und Backups mit einem Befehl  
-✅ Eingebautes `nebula`-Verwaltungstool  
+### 🤖 Telegram-Bot
 
-### Admin-Panel
+- ✅ Gigabyte wallet system
+- ✅ Missions / tasks with real channel-membership verification
+- ✅ Referral codes & rewards
+- ✅ Crypto checkout & withdrawals
+- ✅ Required-channel gating
+- ✅ In-bot license purchase flow
+- ✅ Group management via /panel (anti-spam, anti-bot, locks, schedules)
+- ✅ Always-on 24/7 with long-polling & auto-restart
 
-✅ Modernes, responsives Dashboard mit Live-Serverstatistiken  
-✅ 7-sprachige Oberfläche (fa · en · ar · tr · zh · de · sv) mit vollem RTL  
-✅ Nutzer — Guthaben, Verlauf, Profile, Avatare  
-✅ Aufgaben & Belohnungen — konfigurierbare Gigabyte-Belohnungen  
-✅ Empfehlungen — Einladungs-Tracking, Ranglisten, Bonusstufen  
-✅ Transaktionen & Überweisungen — vollständiges Hauptbuch  
-✅ Gruppen — Auto-Antworten, Zeitpläne, Statistiken, Sperren  
-✅ Follow-Guard — Belohnung zurückholen / Abo kappen beim Verlassen eines Kanals  
-✅ Abos & VPN-Panels — Server- & Konfigurationsverwaltung  
-✅ Support — Live-Chat mit Nutzern im Panel  
-✅ Einreichungen — Screenshot-Betrugsprüfung  
-✅ Rundrufe — an alle Nutzer mit Live-Fortschritt  
-✅ Notfall-Benachrichtiger — Nutzer über einen beliebigen Bot-Token erreichen  
-✅ Anti-Bot — blockiert Werbebot-Button-Spam (auch als Kanal gepostet)  
-✅ Agenten — eingeschränkte Unter-Admins mit Rechten je Bereich  
-✅ Backups — geplant, mit Wiederherstellung & Kanal-Zustellung  
-✅ Einstellungen — Bot-Steuerung, Wartungsmodus, Nachrichten, Passwort  
+### 🏪 Digitaler Shop
 
-### Telegram-Bot
+- ✅ Add products with photo, description, stock & categories
+- ✅ In-bot storefront with category filter & search
+- ✅ Shopping cart (smart single-currency)
+- ✅ Multi-currency — Toman, USD, EUR with correct decimal math
+- ✅ Discount coupons — percentage or fixed, with usage limits & expiry
+- ✅ Payments — card-to-card (receipt upload) or online gateway
+- ✅ Order management — tabs (pending / approved / rejected), receipt view, delete
+- ✅ Sales reports — revenue per currency, daily chart, top products
+- ✅ "Storefront-only" bot mode + customizable shop text
 
-✅ Gigabyte-Wallet-System  
-✅ Missionen mit echter Verifizierung (Kanalmitgliedschaft usw.)  
-✅ Empfehlungscodes & Belohnungen  
-✅ Krypto-Zahlung & Auszahlung  
-✅ Pflicht-Kanal-Gating  
-✅ Lizenzkauf im Bot  
-✅ Gruppenverwaltung über `/panel` (Anti-Spam, Anti-Bot, Sperren)  
+### 🔐 Sicherheit & Infrastruktur
 
-### Sicherheit & Lizenzierung
+- ✅ Sealed, compiled Docker image — source stays private
+- ✅ Ed25519-signed licenses — cannot be forged on customer installs
+- ✅ Licenses bound to a specific bot ID (anti-sharing)
+- ✅ Free Let's Encrypt SSL for a domain or a bare IP
+- ✅ Freemium licensing — core sections free, Pro unlocks everything ($5 lifetime)
+- ✅ Automatic, controlled version releases from the master panel
+- ✅ Persistent data volume — survives every update
 
-✅ Ed25519-signierte Lizenzen — asymmetrische Krypto nach Industriestandard  
-✅ Lizenzen an eine bestimmte Bot-ID gebunden (Anti-Sharing)  
-✅ Schlüsselausgabe nur auf dem Anbieter-Masterserver  
-✅ Signierte Schlüssel können auf Kundeninstallationen nicht gefälscht werden  
-✅ Schlüsselzustellung pro Käufer (bezahlte Bestellung oder manuell per Telegram-ID)  
+---
+
+## 🛠 Verwaltungsbefehle
+
+| Command | What it does |
+|---|---|
+| `nebula` | Open the graphical management menu |
+| `nebula start` / `stop` / `restart` | Start / stop / restart the platform |
+| `nebula status` | Service status, version, panel URL (+ HTTPS) |
+| `nebula logs` | Follow live logs |
+| `nebula update` | Update to the newest version (data kept) |
+| `nebula ssl <domain>` | Free HTTPS for a domain |
+| `nebula ssl auto` | Free HTTPS on the server IP (no domain) |
+| `nebula password` | Show the panel password |
+| `nebula uninstall` | Remove everything |
 
 ---
 
 ## 💻 Voraussetzungen
 
-- Ein Server mit **Ubuntu 22.04 / 24.04 / 26.04**
-- **Root**-Zugriff (den Rest erledigt der Installer)
-- Ein **Telegram-Bot-Token** von [@BotFather](https://t.me/BotFather) — später im Panel hinzugefügt
-- Ein modernes Terminal für beste Grafik (Windows Terminal, iTerm2, die meisten SSH-Clients, Termux)
+- Server mit **Ubuntu 22.04 / 24.04 / 26.04**
+- **Root**-Zugriff
+- **Bot-Token** von [@BotFather](https://t.me/BotFather)
+- (Optional) eine Domain für HTTPS
 
 ---
 
-## 🆘 Support
+## 🆘 Support & Community
 
 <div align="center">
 
-Fragen, Updates und Ankündigungen:
+Fragen, Updates und Ankündigungen — tritt unserem Telegram bei:
 
-### [→ Tritt unserem Telegram bei: @NebulaAiHQ](https://t.me/NebulaAiHQ)
+### [🚀 @NebulaAiHQ](https://t.me/NebulaAiHQ)
 
 </div>
 
 ---
+
+<details><summary>🔍 Schlüsselwörter</summary>
+
+
+<sub>telegram bot, no-code telegram bot, vpn bot, hiddify bot, sanaei bot, telegram vpn panel, krypto zahlungsbot, telegram shop bot, telegram automatisierung</sub>
+
+</details>
 
 <div align="center">
 <sub>⑂ Entwickelt vom Nebula AI Team</sub><br/>
