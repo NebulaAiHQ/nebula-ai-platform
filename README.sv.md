@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/banner.svg" alt="Nebula AI Platform" width="100%"/>
+<img src="https://raw.githubusercontent.com/NebulaAiHQ/nebula-ai-platform/main/banner.svg" alt="Nebula AI Platform" width="100%"/>
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-8b5cf6?style=for-the-badge">
@@ -30,7 +30,7 @@ Du skriver inte en enda rad kod. Du kör **ett kommando** på en ny server, ansl
 Boten körs **dygnet runt utan avbrott**, med en **kraftfull, säkerhetshärdad arkitektur**. Oavsett om du redan driver en **Sanaei / Hiddify / 3x-ui VPN-panel** eller börjar från noll, ansluter Nebula via **automation** och förvandlar den till en fullfjädrad, intäktsgenererande Telegram-tjänst.
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/banner-hero.svg" alt="Nebula Ecosystem" width="100%"/>
+<img src="https://raw.githubusercontent.com/NebulaAiHQ/nebula-ai-platform/main/banner-hero.svg" alt="Nebula Ecosystem" width="100%"/>
 </div>
 
 ---
@@ -64,7 +64,7 @@ bash <(curl -Ls https://nebulapanel.cloud/install)
 ```
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/install-architecture.svg" alt="Install & Architecture" width="100%"/>
+<img src="https://raw.githubusercontent.com/NebulaAiHQ/nebula-ai-platform/main/install-architecture.svg" alt="Install & Architecture" width="100%"/>
 </div>
 
 ---
@@ -87,7 +87,7 @@ Byggd för **driftsäkerhet utan avbrott** och **säkerhet i företagsklass**.
 ## ✨ Fullständig funktionslista
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/lifemeligve-design/nebula-panel-installer/main/platform-overview.svg" alt="All Modules" width="100%"/>
+<img src="https://raw.githubusercontent.com/NebulaAiHQ/nebula-ai-platform/main/platform-overview.svg" alt="All Modules" width="100%"/>
 </div>
 
 ### 🖥️ Adminpanel
