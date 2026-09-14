@@ -1456,7 +1456,48 @@ goodbye_screen() {
   move_to "$(( H/2 ))" "$col"; bold; grad_color 40; printf '%s' "$msg"; reset_all
   sleep 0.35
 }
+# ============================================================
+# NON-INTERACTIVE INSTALL (--auto)
+# ============================================================
+# Used by automation (the mobile app, CI, scripts). Runs the exact same
+# real work as do_install() but with NO TUI, NO prompts and NO tty needs,
+# printing plain progress lines instead. Safe to run over SSH with stdin
+# closed.
+auto_install() {
+  echo "[nebula] auto install starting"
+  if [ "$(id -u)" != "0" ]; then echo "[nebula] ERROR: must run as root"; return 1; fi
+  echo "[nebula] step 1/6 docker"
+  install_docker_q
+  echo "[nebula] step 2/6 config"
+  write_env
+  write_compose
+  echo "[nebula] step 3/6 pulling image"
+  docker pull "$IMAGE" >/dev/null 2>&1
+  echo "[nebula] step 4/6 starting container"
+  docker compose --project-directory "$APP_DIR" -f "$COMPOSE_FILE" up -d >/dev/null 2>&1
+  echo "[nebula] step 5/6 cli"
+  install_cli
+  echo "[nebula] step 6/6 verifying"
+  for i in $(seq 1 30); do
+    if [ -n "$(docker ps -q -f name=nebula 2>/dev/null)" ]; then
+      echo "[nebula] OK container is running"
+      echo "[nebula] ADMIN_USERNAME=${ADMIN_USERNAME}"
+      echo "[nebula] ADMIN_PASSWORD=${ADMIN_PASSWORD}"
+      echo "[nebula] AUTO_INSTALL_DONE"
+      return 0
+    fi
+    sleep 2
+  done
+  echo "[nebula] FAILED container did not start"
+  return 1
+}
+
 main() {
+  # Non-interactive path: --auto (or NEBULA_AUTO=1) skips the whole TUI.
+  if [ "${1:-}" = "--auto" ] || [ "${NEBULA_AUTO:-}" = "1" ]; then
+    auto_install
+    return $?
+  fi
   # Put the terminal in no-echo mode so any stray/unparsed escape bytes
   # (e.g. from very fast scrolling) never get printed on screen. Saved and
   # restored by the trap.
