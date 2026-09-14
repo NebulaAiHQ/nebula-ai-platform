@@ -1466,6 +1466,12 @@ goodbye_screen() {
 auto_install() {
   echo "[nebula] auto install starting"
   if [ "$(id -u)" != "0" ]; then echo "[nebula] ERROR: must run as root"; return 1; fi
+  # Some helpers are TUI-only; stub them so shared functions (install_cli)
+  # work in this non-interactive path too.
+  step() { echo "[nebula]   $*"; }
+  ok()   { echo "[nebula]   ok: $*"; }
+  warn() { echo "[nebula]   warn: $*"; }
+  fail() { echo "[nebula]   fail: $*"; }
   echo "[nebula] step 1/6 docker"
   install_docker_q
   echo "[nebula] step 2/6 config"
